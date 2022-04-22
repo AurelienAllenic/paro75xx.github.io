@@ -1,0 +1,96 @@
+.button-single {
+    color: white ;
+    background-image: linear-gradient(#b09c7c, #8d7d63);
+    width: 100px;
+    border-radius: 15px 15px 15px 15px;
+    border: none;
+    padding: 5%;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.button-single:hover {
+    background-image: linear-gradient(white, white);
+    transform: scale(1.1);
+    color: black;
+ }
+
+ input {
+     background-color: #f6eeeb;
+     border-radius: 10px 10px 10px 10px;
+     width: 20%;
+ }
+ .mail {
+    color: #8d7d63;
+ }
+
+ .weight {
+     font-weight: 600;
+ }
+
+ .weight-ep {
+    font-weight: 400;
+}
+
+ .interligne {
+     line-height: 63px;
+ }
+
+ .taille-h2 {
+     font-size: 35px;
+     font-family: 'Dosis', sans-serif;
+     font-weight: normal;
+ }
+
+.taille-h3 {
+    font-size: 25px;
+}
+
+.taille-texte {
+    font-size: 25px;
+}
+
+.padding-bot-10 {
+    padding-bottom: 10px;
+}
+
+.fond-blanc {
+    background-color: white;
+}
+
+.padding-right {
+    padding-right: 10px;
+}
+
+span {
+    font-size:21px;
+}
+
+.centre {
+    width: 300px;
+    height: 200px;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: 175px;
+}
+
+ @media screen and (min-width: 760px) and (max-width: 992px) {
+    input {
+        width: 35%;
+    }
+    .centre {
+        margin-left: 10px;
+        width: 200px;
+        height: 100px;
+    }
+}
+ @media screen and (max-width: 760px) {
+     input {
+         width: 40%;
+     }
+     .centre {
+        margin-left: 0px;
+        width: 200px;
+        height: 100px;
+    }
+ }
