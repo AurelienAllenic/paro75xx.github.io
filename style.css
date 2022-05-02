@@ -150,6 +150,11 @@ table {
     opacity: 0.6;
 }
 
+.padding-right {
+    padding-right: 20px;
+}
+
+
  @media screen and (min-width: 760px) and (max-width: 992px) {
     input {
         width: 35%;
@@ -187,6 +192,9 @@ table {
     }
     table {
         margin-left: 0px;
+    }
+    .padding-left {
+        margin-left: 50px;
     }
 }
  @media screen and (max-width: 760px) {
@@ -234,6 +242,11 @@ table {
     .padding-top-20 {
         padding-top: 0px;
     }
-
+    a.button-default {
+        font-size: 13px;
+    }
+    a.button-default:before{
+    width: 98%;
+}
     
  }
