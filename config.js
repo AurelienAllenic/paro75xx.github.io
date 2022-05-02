@@ -114,7 +114,7 @@
 		// "on" = OPTION ACTIVATED
 		// "off" = OPTION DEACTIVATED
 		
-		var option_hero_3d_hover_effect = "on";
+		var option_hero_3d_hover_effect = "off";
 		
 		
 		
@@ -122,7 +122,7 @@
 		
 		// "on" = OPTION ACTIVATED
 		// "off" = OPTION DEACTIVATED
-		var option_hero_parallax_hover_effect = "on";
+		var option_hero_parallax_hover_effect = "off";
 		
 		
 		
