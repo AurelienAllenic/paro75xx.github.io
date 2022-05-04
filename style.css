@@ -248,5 +248,13 @@ table {
     a.button-default:before{
     width: 98%;
 }
+h2 {
+    font-size: 32px;
+}
     
+ }
+ @media screen and (max-width: 667px) {
+     h2 {
+         font-size: 31px
+     }
  }
