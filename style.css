@@ -214,7 +214,7 @@ table {
     margin-left: 50px;
   }
   .taille-article-big {
-    height: 1050px;
+    height: 990px;
   }
 }
 @media screen and (max-width: 760px) {
@@ -282,6 +282,6 @@ table {
     font-size: 31px;
   }
   .taille-article-big {
-    height: 812px;
+    height: 550px;
   }
 }
